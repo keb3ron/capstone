@@ -1,0 +1,30 @@
+<h1>Puppy Adoption Page</h1>
+<strong>Please enter your information to adopt a puppy and we will email you back.</strong>
+<p>Please Note: First Name, Last Name, Password, and Email are required fields.</p>
+<form>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" required>   
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" required>
+    <br><br>
+    <label for="email_student">Email:</label>
+    <input type="text" id="email_student" name="email_student" required>
+    <label for="password_com">Password:</label>
+    <input type="password" id="password_com" name="password_com" required>
+    <p>Are you over the age of 18?</p>
+    <input type="radio" id="age_18" name="age" value="18+" required>
+    <label for="age_18">Yes</label>
+    <input type="radio" id="age_under_18" name="age" value="under_18">
+    <label for="age_under_18">No</label>
+    <p>Do you have a Credit Card or PayPal?</p>
+    
+
+    <select name="puppy" id="puppy">
+        <option value="golden_retriever">Card</option>
+        <option value="labrador">Paypal</option>
+    </select>
+
+    <br><br>
+     <input type="submit" value="Submit">
+
+</form>
