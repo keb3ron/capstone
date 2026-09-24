@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+   
+
+    <title>Fortune Teller</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Fortune Teller
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdgbCBTEDmmXAHsy7OwhdCAqI1WxwrP9L3MrjIRllBUw&s=10" height="100">
+    </h1>
+    <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
+      <label for="namefield">Name:</label>
+      <input type="text" id="namefield" name="name" placeholder="your name" required>
+
+      <label for="questionfield">Last name:</label>
+      <input type="text" id="questionfield" name="question" placeholder="your last name">
+      <label for="birthdate">Date of Birth:</label>
+      
+<input type="date" id="birthdate" name="birthdate">
+<br> 
+<p>what is your favorite color?</p>
+<select name="puppy" id="puppy">
+        <option value="golden_retriever">Black</option>
+        <option value="labrador">Yellow</option>
+        <option value="color">Red</option>
+    </select>
+
+      <br>
+      <p>Are you male?</p>
+       <input type="radio" id="age_18" name="age" value="18+" required>
+    <label for="age_18">Yes</label>
+    <input type="radio" id="age_under_18" name="age" value="under_18">
+    <label for="age_under_18">No</label>
+    <br> 
+      <input type="submit">
+    </form>
+    <div id="fortune"></div>
+  </body>
+</html>
